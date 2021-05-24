@@ -1,0 +1,66 @@
+/* bookand */
+#sub_contents.bookand{padding:2rem 1rem 2.5rem; box-sizing:border-box; background-repeat:no-repeat; background-size:cover; }
+
+#sub_contents.bookand > div{margin-bottom:2.5rem; padding:1.5rem; border-radius:0.5rem; background-color:#fff; box-shadow: 4px 4px 6px 0 rgba(73, 14, 104, 0.6);}
+#sub_contents.bookand > div:last-child{margin-bottom:1rem;}
+#sub_contents.bookand > div p{line-height:1.75rem; font-size:0.975rem; text-align:justify;}
+
+.bookand .title_box{position:relative; width:100%; margin-bottom:1rem; overflow:hidden;}
+.bookand .title_box img{width:18rem; margin:0 auto 1rem;}
+.bookand .title_box h4{ padding:1.25rem 0 0.5rem; font-size:1.5rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.bookand .title_box span{display:block; width:100%; height:1px; background-color:#490e67;}
+
+.slogan .p_bottom{padding-top:0.75rem; }
+
+/* ci */
+#sub_contents.ci .title_box h4{font-size:1.5rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+
+#corporate{margin-bottom:3.5rem; padding:2.5rem 1rem 0; box-sizing:border-box;}
+#corporate .title_box{display:flex;}
+#corporate .title_box h4{flex:2; margin-right:0.5rem;}
+#corporate .title_box span{flex:0.9; display:block; height:1px; background-color:#490e67; margin:auto 0;}
+#corporate img{width:21rem; margin:0.5rem 0;}
+#corporate p{line-height:1.75rem;}
+#corporate .line02{display:block; width:100%; height:1px; margin-top:1.5rem; background-color:#490e67;}
+
+#overview .title_box{display:flex; width:100%; padding:0 1rem; margin-bottom:1rem; box-sizing:border-box;}
+#overview  .title_box h4{flex:1; text-align:center; margin:0 1rem;}
+#overview  .title_box span{flex:1; display:block; height:1px; background-color:#490e67; margin:auto 0;}
+#overview .swiper-container{width:100%; padding:0 0 0 1rem;}
+#overview .swiper-slide{height:7.5rem; margin:0.5rem;}
+#overview .swiper-slide:nth-child(odd){width:18.96rem !important;}
+#overview .swiper-slide:nth-child(even){width:8.0625rem !important;}
+#overview .swiper-slide img{height:100%;}
+#overview .line03{display:block; width:calc(100% - 2rem); height:1px; margin:1.5rem auto 3.5rem; background-color:#490e67;}
+
+#color{padding:0 1rem; box-sizing:border-box; margin-bottom:4rem;}
+#color .title_box{display:flex; justify-content:space-between; margin-bottom:1.25rem;}
+#color .title_box h4{margin-right:0.5rem; box-sizing:border-box;}
+#color .title_box span{display:block; width:47%; height:1px; background-color:#490e67; margin:auto 0;}
+#color .title_box ~ div{width:100%; border:1px solid #ccc; margin-bottom:1rem; overflow:hidden;}
+#color .title_box ~ div > span{float:left; display:block; width:9rem; height:10.13rem; margin-right:1rem;}
+#color .color01 > span{background-color:#490e67;}
+#color .color02 > span{background-color:#f6f2ff;}
+#color .color03 > span{background-color:#bcb6ff;}
+#color .color04 > span{background-color:#dcccff;}
+#color .text_box{height:10.13rem;  padding:1rem; box-sizing:border-box;}
+#color .text_box p{font-size:0.875rem;}
+#color .text_box .color_guide{margin-top:1rem; font-size:0.75rem;}
+#color .line02{display:block; width:100%; height:1px; margin-top:1.75rem; background-color:#490e67;}
+
+
+/* map */
+#sub_contents.map{padding:2.5rem 1rem; box-sizing:border-box;}
+.map .text_box{padding-left:6px; margin-bottom:1.25rem;}
+.map .text_box h4{font-size:1.45rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal; padding-bottom:0.25rem;}
+
+.map_wrap{width:100%; margin:0.5rem 0; border-radius:1rem; box-shadow: 2px 2px 6px 0 rgba(73, 14, 104, 0.6); overflow:hidden;}
+#map{width:100%; height:16rem; border-radius:1rem 1rem 0 0; box-sizing:border-box;}
+.map a{display:block; width:100%; height:3rem; background-color:#490e67; border-radius:0 0 1rem 1rem; line-height:3rem; text-align:center; color:#fff; }
+
+.map ul{width:100%; margin-top:1.5rem;}
+.map ul > li{ width:100%; overflow:hidden; padding:0 0 1rem 3.75rem; background-repeat:no-repeat; background-size:3rem; background-position:left 0.345rem;}
+.map ul > li:first-child{background-image: url(../images/bookand/map_icon01.png)}
+.map ul > li:nth-child(2){background-image: url(../images/bookand/map_icon02.png)}
+.map ul > li:last-child{background-image: url(../images/bookand/map_icon03.png)}
+.map .transport{ line-height:2rem; font-size:1.125rem; font-weight:500;}

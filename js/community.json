@@ -1,0 +1,61 @@
+{
+   "concert" :[
+        {
+          "url": "../images/community/concert_bn01.png",
+          "title": "[북토크] 악마도 때론 인간일 뿐이다",
+          "date": "2021. 04. 17"
+       },
+       {
+          "url": "../images/community/concert_bn02.png",
+          "title": "[강연회] 나의 아름다운 이웃",
+          "date": "2021. 03. 12"
+       },
+       {
+          "url": "../images/community/concert_bn03.png",
+          "title": "[강연회] 메타인지 학습법",
+          "date": "2021. 03. 01"
+       },
+       {
+          "url": "../images/community/concert_bn04.png",
+          "title": "[북토크] 슬픔이여, 안녕",
+          "date": "2021. 02. 26"
+       },
+       {
+          "url": "../images/community/concert_bn05.png",
+          "title": "[강연회] 아침이 달라지는 저녁 루틴의 힘",
+          "date": "2021. 02. 01"
+       },
+       {
+          "url": "../images/community/concert_bn06.png",
+          "title": "[북토크] 스토리텔링 바이블",
+          "date": "2021. 01. 27"
+       }
+    ],
+    "event" : [
+       {
+          "url": "../images/community/event_bn01.png",
+          "title": "북앤드 환경 개선 프로젝트",
+          "date": "2021. 04. 02"
+       },
+       {
+          "url": "../images/community/event_bn02.png",
+          "title": "SNS 리뷰 공유 이벤트!",
+          "date": "2021. 03. 27"
+       },
+       {
+          "url": "../images/community/event_bn03.png",
+          "title": "저자 사인본 증정 이벤트",
+          "date": "2021. 03. 12"
+       },
+       {
+          "url": "../images/community/event_bn04.png",
+          "title": "고객 감사 도서 증정 이벤트",
+          "date": "2021. 02. 12"
+       },
+       {
+          "url": "../images/community/event_bn05.png",
+          "title": "출간 기념 구독 이벤트",
+          "date": "2021. 01. 27"
+       }
+    ]
+}

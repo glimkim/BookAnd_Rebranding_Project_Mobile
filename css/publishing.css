@@ -1,0 +1,51 @@
+#sub_contents{padding:2rem 1rem 2.5rem; box-sizing:border-box;}
+
+@media screen and (max-width:280px){
+    #sub_contents *{font-size:12.5px;}
+}
+
+/* submission */
+.submission > div{width:100%; margin-bottom:1.5rem; padding:1rem; box-sizing:border-box; border-radius:0.3rem; background-color:#f6f2ff; overflow:hidden; box-shadow: 2px 2px 2px 0 rgba(73, 14, 104, 0.6); transition:0.4s;}
+.submission > div a{display:block; width:100%; height:4rem; padding:0 0.5rem; box-sizing:border-box;}
+.submission > div img{float:left; width:4rem; margin-right:1rem;}
+.submission > div h3{float:right; width:calc(100% - 6rem); padding-left:0; box-sizing:border-box; background-image:url(../images/publishing/submission_view_icon.png); background-repeat:no-repeat; background-size:1rem; background-position:right center; line-height:4rem; font-size:1.25rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal; transition:0.2s;}
+.submission > div .contents{display:none; margin-top:1rem; padding-top:1rem; border-top:1px solid #490e67; }
+.submission > div .contents p{line-height:1.75rem; text-align:justify;}
+
+.submission .tip li{width:100%; margin-bottom:0.5rem; padding-left:1rem; box-sizing:border-box; background-image:url(../images/publishing/submission_list_icon.png); background-repeat:no-repeat; background-position:left 0.6rem; background-size:0.5rem; line-height:1.75rem;}
+.submission .tip li:last-child{margin:0;}
+/* active */
+.submission > div h3.active{background-image:url(../images/publishing/submission_viewless_icon.png); }
+
+/* prize */
+.prize .contents_nav{width:100%; margin-bottom:1.5rem; box-sizing:border-box; background-color:#fff; box-shadow: 2px 2px 4px 0 rgba(73, 14, 104, 0.6);  text-align:center;}
+.prize .contents_nav li a{display:block; width:calc(100% - 6rem); height:100%; margin:0 auto; padding:0.5rem; box-sizing:border-box;}
+
+.prize > div{display:none; width:100%; padding:1rem; box-sizing:border-box;background-color:#f6f2ff; }
+.prize > div h4{line-height:3rem; font-size:1.45rem; text-align:center; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.prize > div > p{margin-bottom:1.5rem; line-height:1.75rem; font-size:0.975rem; text-align:center;}
+
+.prize > div > ul li{margin-bottom:2rem; overflow:hidden;}
+.prize > div > ul figure{float:left; width:4rem; height:4rem; padding:0.5rem; box-sizing:border-box; overflow:hidden; background-color:#490e67; border-radius:0.3rem;}
+.prize > div > ul img{width:3rem; }
+.prize .text_box{float:left; width:calc(100% - 4rem); padding-left:1rem; box-sizing:border-box;}
+.prize .text_box h5{width:100%; margin-bottom:0.5rem; padding-bottom:0.5rem; border-bottom:1px solid #490e67; font-size:1.125rem; font-weight:normal; font-family: 'Cafe24Dangdanghae';}
+.prize .text_box p{line-height:1.75rem; font-size:0.975rem; text-align:justify;}
+.prize .text_box li{width:100%; margin-bottom:0.25rem; padding-left:1rem; box-sizing:border-box; background-image:url(../images/publishing/submission_list_icon.png); background-repeat:no-repeat; background-position:left 0.6rem; background-size:0.5rem; line-height:1.75rem;}
+.prize .text_box li:last-child{margin:0;}
+/* active */
+.contents_nav a.active{background-image:url(../images/books/booksection_icon.png); background-repeat:no-repeat; background-position:left top; background-size:1rem; font-size:1.125rem; color:#490e67; font-weight:500;}
+
+/* consulting */
+.consulting h3{margin-bottom:0.5rem; font-size:1.45rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.consulting h3 + p{margin-bottom:1rem;}
+.consulting form{position:relative; padding:1rem 1rem 4.5rem; box-sizing:border-box; background-color:#f6f2ff; box-shadow: 2px 2px 6px 0 rgba(73, 14, 104, 0.7);}
+.consulting form > span{display:block; width:100%; height:1px; margin:1.25rem 0; background-color:#490e67;}
+.consulting fieldset > div{width:100%; margin:1rem 0; overflow:hidden;}
+.consulting fieldset > div:nth-of-type(2n){margin-bottom:0;}
+.consulting fieldset legend{margin-bottom:0.5rem; font-size:1.25rem; font-family: 'Cafe24Dangdanghae'; color:#490e67;}
+.consulting form label{line-height:3rem;}
+.consulting form input{float:right; width:calc(100% - 6.5rem); height:3rem; border:1px solid #ccc;}
+.consulting form textarea{float:right; width:calc(100% - 6.5rem); height:10rem; border:1px solid #ccc;}
+.consulting form button{position:absolute; left:0; bottom:0; width:100%; margin-top:1.5rem; padding:1rem; background-color:#490e67; font-family: 'Cafe24Dangdanghae'; text-align:center; color:#fff;}
+

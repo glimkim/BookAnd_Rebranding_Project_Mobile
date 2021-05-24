@@ -1,0 +1,39 @@
+#sub_contents{width:100%; padding:2rem 1rem 2.5rem; box-sizing:border-box;}
+.away{position:absolute; left:-999em;}
+
+/* notice & qna */
+.board{text-align:right;}/*for the a tags below*/
+
+.board form{display:flex; height:3rem; margin-bottom:1rem; justify-content:space-between;}
+.board select{width:20%; height:100%; padding-left:0.5rem; margin-right:1rem; border:1px solid #ccc;}
+.board input{width:55%; padding-left:0.5rem; border:1px solid #ccc;}
+.board form button{width:4rem; height:100%; margin-left:1rem; border-radius:0.3rem; background-color:#490e67; background-image:url(../images/support/search_icon.png); background-repeat:no-repeat; background-size:2rem; background-position:center;}
+
+.board h3{margin-bottom:0.5rem; font-size:1.5rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.board h3 + p{margin-bottom:10px; font-size:1.125rem;}
+.board .total{font-size:1.25rem; color:#490e67; font-weight:700;}
+.board table{width:100%; margin-bottom:1rem; border-bottom:1px solid #490e67;}
+.board tr:first-child{border-top:1px solid #490e67; background-color:#f6f2ff;}
+.board th{font-weight:500;}
+.board tr{display:flex; justify-content:space-between; line-height:3rem; box-sizing:border-box; text-align:center;}
+.board .number{width:3rem;}
+.board .date{width:6rem;}
+.board td:first-child{padding-left:1rem;}
+.board td{padding:0 0.75rem; font-size:0.875rem; text-align:center;}
+.board a{display:block; width:100%; height:100%;}
+
+.board table ~ a{display:inline-block; width:4rem; height:3rem; margin-right:0.5rem; border-radius:0.2rem; box-sizing:border-box; background-color:#490e67; line-height:3rem; text-align:center; color:#fff; }
+.board table ~ a:last-of-type{margin-right:0; border:1px solid #490e67; background-color:#fff; color:#490e67;}
+
+/* alliance */
+.alliance h3{margin-bottom:0.5rem; font-size:1.45rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.alliance h3 + p{margin-bottom:1rem;}
+.alliance form{position:relative; padding:1rem 1rem 4.5rem; box-sizing:border-box; background-color:#f6f2ff; box-shadow: 2px 2px 6px 0 rgba(73, 14, 104, 0.7);}
+.alliance form > span{display:block; width:100%; height:1px; margin:1.25rem 0; background-color:#490e67;}
+.alliance fieldset > div{width:100%; margin:1rem 0; overflow:hidden;}
+.alliance fieldset > div:nth-of-type(2n){margin-bottom:0;}
+.alliance fieldset legend{margin-bottom:0.5rem; font-size:1.25rem; font-family: 'Cafe24Dangdanghae'; color:#490e67;}
+.alliance form label{line-height:3rem;}
+.alliance form input{float:right; width:calc(100% - 6.5rem); height:3rem; border:1px solid #ccc;}
+.alliance form textarea{float:right; width:calc(100% - 6.5rem); height:10rem; border:1px solid #ccc;}
+.alliance form button{position:absolute; left:0; bottom:0; width:100%; margin-top:1.5rem; padding:1rem; background-color:#490e67; font-family: 'Cafe24Dangdanghae'; text-align:center; color:#fff;}

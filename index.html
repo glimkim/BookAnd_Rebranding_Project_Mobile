@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+        <title>BookAnd</title>
+        
+        <link rel="shortcut icon" href="images/common/favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/common/ios_icon.png">
+        <link rel="icon" sizes="192x192" href="images/common/android_icon.png"> 
+        
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="pop_up">
+            <div class="p_wrap">
+                <div class="p_top">
+                    <div class="p_text01">
+                          <p>
+                               <span>본</span> 사이트는 상업적 목적이 아닌<br>
+                               개인 포트폴리오 용도로<br> 
+                               만들어 졌습니다.<br>
+                               홈페이지의 일부 내용과 이미지 등은<br>
+                               그 출처가 따로 있음을 밝힙니다.<br>
+                               본 사이트는 HTML5와 CSS3를<br> 
+                               기준으로 하여 크롬, 사파리, 오페라,<br> 
+                               파이어폭스, IE9이상의 브라우저에<br>
+                               맞춘 홈페이지입니다. 
+                          </p>
+                          <a class="go_pc" href="http://bookand.dothome.co.kr/?move_pc_screen=1">PC버전 바로가기</a>
+                    </div>
+                </div>
+                <div class="p_bottom">
+                    <form action="#">
+                        <fieldset>
+                            <legend>오늘하루 보지 않기 박스</legend>
+                            <label for="not_today" class="check_box">
+                            <input type="checkbox" id="not_today">
+                            <i></i>
+                            <span class="text">오늘 하루 더 보지 않기</span>
+                            </label>
+                            <a href="#">CLOSE X</a>
+                        </fieldset>
+                    </form>
+                </div>
+                <img src="images/common/popup_bg.png" alt="팝업 배경 이미지">
+            </div>
+        </div>
+        <div class="panel">
+           <nav class="gnb">
+               <ul>
+                   <li>
+                       <a href="#bookand" class="main_nav">BookAnd</a>
+                       <ul class="sub_nav">
+                           <li><a href="bookand/bookand.html">북앤드</a></li>
+                           <li><a href="bookand/ci_bi.html">CI 소개</a></li>
+                           <li><a href="bookand/map.html">오시는 길</a></li>
+                       </ul>
+                   </li>
+                   <li>
+                       <a href="#books" class="main_nav">Books</a>
+                       <ul class="sub_nav">
+                           <li><a href="books/booksection.html">분야별 도서</a></li>
+                           <li><a href="books/newbooks.html">신간도서</a></li>
+                           <li><a href="books/bestsellers.html">베스트셀러</a></li>
+                           <li><a href="books/bookofmonth.html">이달의 책</a></li> 
+                       </ul>
+                   </li>
+                   <li>
+                       <a href="#authors" class="main_nav">Authors</a>
+                       <ul class="sub_nav">
+                           <li><a href="authors/authors.html">저자 검색</a></li>
+                           <li><a href="authors/interview.html">저자 인터뷰</a></li>
+                       </ul>
+                   </li>
+                   <li>
+                       <a href="#publishing" class="main_nav">Publishing</a>
+                       <ul class="sub_nav">
+                           <li><a href="publishing/submission.html">기획/원고 모집</a></li>
+                           <li><a href="publishing/prize.html">공모전</a></li>
+                           <li><a href="publishing/consulting.html">1:1 상담</a></li>
+                       </ul>
+                    </li>
+                    <li>
+                       <a href="#community" class="main_nav">Community</a>
+                       <ul class="sub_nav">
+                           <li><a href="community/podcast.html">팟캐스트</a></li>
+                           <li><a href="community/concert.html">북콘서트</a></li>
+                           <li><a href="community/event.html">이벤트</a></li>
+                       </ul>
+                    </li>
+                    <li>
+                       <a href="#support" class="main_nav">Support</a>
+                       <ul class="sub_nav">
+                           <li><a href="support/notice.html">공지사항</a></li>
+                           <li><a href="support/qna.html">Q &amp; A</a></li>
+                           <li><a href="support/alliance.html">제휴 문의</a></li>
+                       </ul>
+                    </li>
+               </ul>
+           </nav>
+       </div>
+       <div class="account">
+           <form name="account" action="#accont">
+               <fieldset>
+                   <legend>로그인</legend>
+                   <input type="email" name="userEmail" id="user_email" placeholder="이메일">
+                   <label for="user_email">아이디</label>
+                   <input type="password" name="userPassword" id="user_password" placeholder="비밀번호">
+                   <label for="user_password">비밀번호</label>
+                   <div class="login_option">
+                       <label for="auto_login" class="check_box">
+                           <input type="checkbox" id="auto_login">
+                           <i></i>
+                           <span class="text">Remember me</span>
+                       </label>
+                       <a href="#findid" class="find_id">Forgot password?</a>
+                   </div>
+                   <button type="submit">LOG IN</button>
+                   <a href="#join_page" class="join">JOIN US</a>
+               </fieldset>
+           </form>
+       </div>
+       <div class="body_wrap">
+            <header>
+                <a href="#account" class="account_icon" title="어카운트 열기"></a>
+                <a href="index.html" class="logo" title="메인페이지 바로가기"><h1><img src="images/common/header_logo.svg" alt="북앤드 로고 이미지"></h1></a>
+                <a href="#panel" class="panel_icon" title="패널 열기"></a>
+            </header>
+            <main>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide01">
+                            <div class="contents">
+                                <img src="images/main/main01_logo.svg" alt="로고 이미지">
+                                <h3>where you find your dream</h3>
+                                <p>
+                                    당신에게 시작이 되어줄<br>
+                                    여기, BookAnd
+                                </p>
+                            </div>
+                            <span class="ball01"></span>
+                            <span class="ball02"></span>
+                            <span class="ball03"></span>
+                            <span class="ball04"></span>
+                            <span class="ball05"></span>
+                            <span class="ball07"></span>
+                        </div>
+                        <div class="swiper-slide slide02">
+                            <p class="text_top">북앤드 제 11기</p>
+                            <h3>
+                                신인 문학상<br>
+                                공모전
+                            </h3>
+                            <p class="text_bottom">
+                                <span>BookAnd</span>&nbsp;에서<br> 
+                                함께 꿈을 펼칠<br>
+                                신입 작가님을 모집합니다
+                            </p>
+                            <a href="publishing/prize.html">APPLY HERE NOW!</a>
+                        </div>
+                        <div class="swiper-slide slide03">
+                            <p class="text_top">
+                                책을 쓰고 읽는<br>
+                                세상 모든 이들이 행복하길
+                            </p>
+                            <p class="date">APRIL 23</p>
+                            <p class="text_bottom">We're celebrating</p>
+                            <h3>WORLD BOOK DAY</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="search">
+                    <input type="text" id="search" placeholder="Search here...">
+                    <label for="search">검색창</label>
+                    <button type="submit"></button>
+                </div>
+            </main>
+            <div id="best_sellers">
+               <a href="./books/bestsellers.html" class="title_wrap">
+                   <h2>BEST SELLERS</h2>
+                   <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+               </a>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/main/bestsellers_bn01.png" alt="시선으로부터 책 표지 이미지">
+                            <div class="text_box">
+                                <h3>시선으로부터</h3>
+                                <p>정세랑</p>
+                                <a href="./books/bestsellers.html" title="책 더보기">
+                                    <img src="images/main/bestsellers_more_btn.png" alt="더 보기 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bestsellers_bn02.png" alt="가장 예쁜 생각을 너에게 주고 싶다 책 표지 이미지">
+                            <div class="text_box">
+                                <h3>가장 예쁜 생각을 너에게 주고 싶다</h3>
+                                <p>저자 나태주</p>
+                                <a href="./books/bestsellers.html" title="책 더보기">
+                                    <img src="images/main/bestsellers_more_btn.png" alt="더 보기 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bestsellers_bn03.png" alt="부지런한 사랑 책 표지 이미지">
+                            <div class="text_box">
+                                <h3>부지런한 사랑</h3>
+                                <p>저자 이슬아</p>
+                                <a href="./books/bestsellers.html" title="책 더보기">
+                                    <img src="images/main/bestsellers_more_btn.png" alt="더 보기 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bestsellers_bn04.png" alt="체리에이드 전쟁 책 표지 이미지">
+                            <div class="text_box">
+                                <h3>체리에이드 전쟁</h3>
+                                <p>저자 김지원</p>
+                                <a href="./books/bestsellers.html" title="책 더보기">
+                                    <img src="images/main/bestsellers_more_btn.png" alt="더 보기 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bestsellers_bn05.png" alt="마음 챙김의 시 책 표지 이미지">
+                            <div class="text_box">
+                                <h3>마음 챙김의 시</h3>
+                                <p>저자 류시화</p>
+                                <a href="./books/bestsellers.html" title="책 더보기">
+                                    <img src="images/main/bestsellers_more_btn.png" alt="더 보기 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bestsellers_bn06.png" alt="빨강머리 앤이 하는 말 책 표지 이미지">
+                            <div class="text_box">
+                                <h3>빨강머리 앤이 하는 말</h3>
+                                <p>저자 백영옥</p>
+                                <a href="./books/bestsellers.html" title="책 더보기">
+                                    <img src="images/main/bestsellers_more_btn.png" alt="더 보기 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bestsellers_bn07.png" alt="매우 예민한 사람들을 위한 책 표지 이미지">
+                            <div class="text_box">
+                                <h3>매우 예민한 사람들을 위한 책</h3>
+                                <p>저자 전홍진</p>
+                                <a href="./books/bestsellers.html" title="책 더보기">
+                                    <img src="images/main/bestsellers_more_btn.png" alt="더 보기 아이콘">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="book_of_month">
+               <a href="./books/bookofmonth.html" class="title_wrap">
+                   <h2>BOOK OF MONTH</h2>
+                   <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+               </a>
+               <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/main/bookofmonth_bn01.png" alt="인생은 소설이다 표지 이미지">
+                            <div class="text_box">
+                                <h3>인생은 소설이다</h3>
+                                <h4>기욤 뮈소</h4>
+                                <p class="genre">프랑스 문학</p>
+                                <p class="summary">
+                                    플로라 콘웨이는 현재 세 권의 소설을 발표한 작가지만 데뷔작을 필두로 나머지 두 작품 역시 공전의 히트를 기록하는 한편 그 외의 영역에서는
+                                    </p>
+                                <ul class="like_share">
+                                     <li class="first">
+                                        <a href="#go_share" class="share" title="공유하기">
+                                            <img src="images/main/bookofmonth_icon01.png" alt="공유하기 아이콘"> 
+                                        </a>
+                                    </li>
+                                     <li class="last">
+                                        <a href="#go_like" class="like" title="좋아요">
+                                            <img src="images/main/bookofmonth_icon02.png" alt="좋아요 아이콘"> 
+                                        </a>
+                                     </li>
+                                 </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bookofmonth_bn02.png" alt="어린이라는 세계 표지 이미지">
+                            <div class="text_box">
+                                <h3>어린이라는 세계</h3>
+                                <h4>김소영</h4>
+                                <p class="genre">한국 에세이</p>
+                                <p class="summary">
+                                    어린이에 대해 생각할수록 우리의 세계는 넓어진다. 어린이는 잘 보이지 않는다. 몸이 작아서이기도 하고, 목소리가 작아서이기도 하다. 양육이나 교육, 돌봄을 맡고 있는 사람이 아니라면 우리 곁에 어린이가 ‘있다’는 사실을 의식하지 못한 채 살아가기 쉽다. 10년 남짓 어린이책 편집자로 일했고, 지금은 독서교실에서 어린이들과 책을 읽는 김소영은 어린이의 존재를 더 잘 보이게 하기 위해 부지런히 글을 쓰고 목소리를 내 왔다.
+                                    </p>
+                                <ul class="like_share">
+                                     <li class="first">
+                                        <a href="#go_share" class="share" title="공유하기">
+                                            <img src="images/main/bookofmonth_icon01.png" alt="공유하기 아이콘"> 
+                                        </a>
+                                    </li>
+                                     <li class="last">
+                                        <a href="#go_like" class="like" title="좋아요">
+                                            <img src="images/main/bookofmonth_icon02.png" alt="좋아요 아이콘"> 
+                                        </a>
+                                     </li>
+                                 </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/main/bookofmonth_bn03.png" alt="방구석 미술관 표지 이미지">
+                            <div class="text_box">
+                                <h3>방구석 미술관</h3>
+                                <h4>조원재</h4>
+                                <p class="genre">미술</p>
+                                <p class="summary">
+                                    2018년 출간된 이래 미술은 고상하고 우아한 사람들의 전유물이라 여겨왔던 대중들에게 큰 사랑을 받으며, 새로운 미술 교양의 지평을 열었다. 예술 분야의 베스트셀러로 꾸준히 사랑받아 온 "방구석 미술관"이 2년 만에 10만 부 판매 기록을 돌파했다. 이를 기념하기 위해 특별판으로 출간한 이번 책은 ‘프라이빗 미술관 에디션’으로, 프랑스 파리의 3대 미술관 중 하나인 오르세 미술관을 나만의 방에서 편하게 즐길 수 있도록 초대한다.
+                                </p>
+                                <ul class="like_share">
+                                     <li class="first">
+                                        <a href="#go_share" class="share" title="공유하기">
+                                            <img src="images/main/bookofmonth_icon01.png" alt="공유하기 아이콘"> 
+                                        </a>
+                                    </li>
+                                     <li class="last">
+                                        <a href="#go_like" class="like" title="좋아요">
+                                            <img src="images/main/bookofmonth_icon02.png" alt="좋아요 아이콘"> 
+                                        </a>
+                                     </li>
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div id="author_interview">
+                <div class="wrap">
+                   <a href="./authors/interview.html">
+                       <img src="images/main/author_interview_bg.png" alt="작가인터뷰 배너 이미지">
+                       <div class="title_wrap">
+                           <h2>AUTHOR INTERVIEW</h2>
+                           <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+                       </div>
+                   </a>
+                </div>
+            </div>
+            <div id="publishing">
+                <a href="./publishing/submission.html" class="prize" title="기획/원고 모집 바로가기">
+                    <img src="images/main/publishing_bn01.png" alt="기획/원고 모집 이미지">
+                    <h3>기획/원고 모집</h3>
+                    <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+                </a>
+                <a href="./publishing/prize.html" class="prize" title="공모전 바로가기">
+                    <img src="images/main/publishing_bn02.png" alt="공모전 이미지">
+                    <h3>공모전</h3>
+                    <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+                </a>
+                <a href="./publishing/consulting.html" class="consulting" title="1:1문의 바로가기">
+                    <img src="images/main/publishing_bn03.png" alt="1:1문의 이미지">
+                    <h3>1:1 문의</h3>
+                    <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+                </a>
+            </div>
+            <div id="event">
+               <a href="./community/event.html" class="title_wrap">
+                   <h2>VIEW OUR EVENT</h2>
+                   <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+               </a>
+               <div class="swiper-container">
+                   <div class="swiper-wrapper">
+                       <div class="swiper-slide slide01">
+                           <a href="./community/event.html" title="이벤트 페이지 바로가기">
+                               <img src="images/main/event_bg01.png" alt="이벤트01 배경 이미지">
+                               <div class="text_box">
+                                   <p>BookAnd 북콘서트</p>
+                                   <h3>한 사람을 여행하는 북토크</h3>
+                                   <h4>파울로 코엘료 X LIM KIM</h4>
+                               </div>
+                           </a>
+                       </div>
+                       <div class="swiper-slide slide02">
+                           <a href="./community/event.html" title="이벤트 페이지 바로가기">
+                               <img src="images/main/event_bg02.png" alt="이벤트02 배경 이미지">
+                               <div class="text_box">
+                                   <p>
+                                    <span>BookAnd<br>구독</span>하고,<br>
+                                    최신 소식<br>
+                                    먼저 받자!
+                                    </p>
+                               </div> 
+                           </a>
+                       </div>
+                       <div class="swiper-slide slide03">
+                           <a href="./community/event.html" title="이벤트 페이지 바로가기">
+                               <img src="images/main/event_bg03.png" alt="이벤트03 배경 이미지">
+                               <div class="text_box">
+                                   <h4>북앤드 제 1기</h4>
+                                   <h3>창작 동화 공모전</h3>
+                                   <p>
+                                       응모 기간<br>
+                                       2021. 03. 04 - 2021. 04. 28
+                                   </p>
+                               </div>
+                           </a>
+                       </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+               </div>
+            </div>
+            <div id="new_books">
+                <div class="slider_wrap">
+                    <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./books/newbooks.html">
+                                <img src="images/main/newbooks_bn01.png" alt="문구는 옳다 표지 이미지">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./books/newbooks.html">
+                                <img src="images/main/newbooks_bn02.png" alt="모두의 떡볶이 표지 이미지">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./books/newbooks.html">
+                                <img src="images/main/newbooks_bn03.png" alt="맥주탐구생활 표지 이미지">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./books/newbooks.html">
+                                <img src="images/main/newbooks_bn04.png" alt="치유하는 인간 표지 이미지">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="title_wrap">
+                    <a href="./books/new_books.html">
+                        <h2>NEW BOOKS</h2>
+                        <img src="images/common/more_icon_white.png" alt="더 보기 아이콘">
+                    </a>
+                </div>
+            </div>
+            <div id="podcast">
+                <a href="./community/podcast.html" class="title_wrap">
+                <h2>PODCAST</h2>
+                <img src="images/common/more_icon.png" alt="더 보기 아이콘">
+                </a>
+                <div class="wrap">
+                    <span class="podcast_bg"></span>
+                    <div class="contents_wrap">
+                        <div class="video_wrap">
+                            <iframe class="video01" title="책읽는 다락방 J, 헤세의 인생 공부" src="https://www.youtube.com/embed/XNqQOUKzn5Y?start=0&enablejsapi=1"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <button class="play_btn">
+                                <img src="images/main/podcast_playbtn.png" alt="비디오 플레이 버튼">
+                            </button>
+                        </div>
+                            <div class="text_box">
+                            <h3>책읽는 다락방 J</h3>
+                            <p class="text01">헤세의 인생공부</p>
+                            <p class="text02">
+                                헤르만 헤세가<br> 들려주는<br> 인생에 관한 고찰
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div id="notice">
+                <a href="./support/notice.html">
+                    <div href="./support/notice.html" class="title_wrap">
+                    <h2>NOTICE</h2>
+                    <img src="images/common/more_icon_white.png" alt="더 보기 아이콘">
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h4>홈페이지 리뉴얼 및 회원가입 아이디 이전 안내</h4>
+                                <span class="date">2021. 03. 21</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <h4>[채용공고] 기획 경력/신입사원 공개채용 모집</h4>
+                                <span class="date">2021. 02. 24</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <h4>스토리 작가 데뷔 프로그램 최종 합격자를 발표합니다.</h4>
+                                <span class="date">2021. 01. 27</span>
+                            </div>
+                            <div class="swiper-slide">
+                                <h4>[공지]체리에이드 전쟁 신간이벤트 당첨자 발표!</h4>
+                                <span class="date">2021. 01. 18</span>
+                            </div>
+                        </div>
+                    </div> 
+                </a>        
+            </div>
+            <div id="subscribe">
+                <input type="text" id="subscribe_email" placeholder="이메일을 입력하세요.">
+                <label for="subscribe">구독하기 이메일 입력란</label>
+                <button>구독</button>
+            </div>
+            <footer>
+                <ul class="f_nav">
+                        <li><a href="#" title="로그인">로그인</a></li>
+                        <li><a href="tel:02-454-4545" title="고객센터">고객센터</a></li>
+                        <li><a href="http://bookand.dothome.co.kr/?move_pc_screen=1" title="PC버전">PC버전</a></li>
+                </ul>
+                <ul class="sns">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCyRhEc0XXhq1qgyEbKNx-gQ?sub_confirmation=1" target="_blank">
+                            <img src="images/common/footer_icon01.png" alt="유투브 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/jiinpill21/" target="_blank">
+                            <img src="images/common/footer_icon02.png" alt="인스타그램 아이콘">
+                        </a>
+                    </li>
+                    <li>
+                       <a href="https://www.youtube.com/channel/UCyRhEc0XXhq1qgyEbKNx-gQ?sub_confirmation=1" target="_blank">
+                            <img src="images/common/footer_icon04.png" alt="페이스북 아이콘">
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/21cbooks" target="_blank">
+                            <img src="images/common/footer_icon03.png" alt="트위터 아이콘">
+                        </a>
+                    </li>
+                </ul>
+                <p class="f_text01">
+                    서울시 마포구  동교로 145<br>
+                    COPYRIGHT&copy; 2019 BookAnd All Rights Reserved
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

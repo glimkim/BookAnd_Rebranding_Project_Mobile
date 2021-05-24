@@ -1,0 +1,20 @@
+#sub_contents{padding:2.5rem 1rem; box-sizing:border-box;}
+
+/* books_common */
+.book_list{width:100%; overflow:hidden;}
+.book_list li{float:left; display:block; width:calc(50% - 0.5rem); margin:0 1rem 1.15rem 0; }
+.book_list li:nth-child(even){float:right; margin-right:0;}
+.book_list li figure{position:relative; width:100%; height:16rem; margin-bottom:0.3rem; background-color:rgba(74, 13, 103, 0.9); border-radius:5px;}
+.book_list li:nth-child(4n - 1) figure{background-color:rgba(74, 13, 103, 0.6);}
+.book_list li:nth-child(4n - 2) figure{background-color:rgba(74, 13, 103, 0.6);}
+.book_list li h5{width:100%; margin-top:0.5rem; text-align:center; font-weight:normal; overflow: hidden; white-space:nowrap; text-overflow:ellipsis; text-transform:capitalize; }
+.book_list img{position:absolute; top:0; left:0; right:0; bottom:0; width:calc(100% - 1.5rem); margin:auto;}
+
+/* booksection */
+.contents_nav{width:100%; text-align:center; background-color:#f6f2ff; margin-bottom:1.25rem; box-shadow: 2px 2px 4px 0 rgba(73, 14, 104, 0.6);}
+.contents_nav > li{display:inline-block; margin:0 0.5rem;}
+.contents_nav > li a{display:block; width:100%; height:100%; padding:0.5rem 0.45rem 0.5rem 0.75rem; border-radius:0 5px 5px 5px; font-size:1.125rem;}
+
+.contents_nav a.active{background-image:url(../images/books/booksection_icon.png); background-repeat:no-repeat; background-position:left top; background-size:1rem; color:#490e67; font-weight:700;}
+
+.more_btn{width:100%; padding:10px; background-color:#f6f2ff; color:#490e67;}

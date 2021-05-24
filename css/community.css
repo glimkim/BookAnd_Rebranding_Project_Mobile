@@ -1,0 +1,42 @@
+/* podcast */
+#sub_contents.podcast{background-color:#f6f2ff;}
+
+.podcast .video{position:relative; width:100%; margin:2rem 0; padding-top:56%; background-color:#f6f2ff;}
+.podcast iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
+
+.video_list{width:100%; margin-bottom:2rem; padding:0 1rem; box-sizing:border-box; overflow:hidden;}
+.video_list li{display:flex; width:100%; padding:1rem 0; border-bottom:1px solid #490e67; overflow:hidden;} 
+.video_list li:first-child{border-top:1px solid #490e67;}
+.video_list img{width:9.875rem; height:8.29rem;}
+.video_list .text_box{position:relative; width:calc(100% - 10.875rem); padding-left:1rem;}
+.video_list .text_box h4{font-size:1.15rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.video_list .text_box .text_top{width:10rem; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding-top:1rem; font-size:0.975rem}
+.video_list .text_box .date{padding-top:1rem; font-size:0.875rem; color:#666;}
+.video_list .text_box a{position:absolute; right:0; bottom:0; display:block; width:calc(100% - 1rem); padding:0.5rem; box-sizing:border-box; border-radius:0.3rem; background-color:#490e76; color:#fff; font-family: 'Cafe24Dangdanghae'; text-align:center; font-size:0.875rem;}
+
+@media screen and (max-width:320px){
+    .video_list img{width:8.25rem; height:6.875rem;}
+    .video_list .text_box .text_top{padding-top:0.5rem;}
+    .video_list .text_box .date{padding-top:0.5rem;}
+}
+@media screen and (max-width:280px){
+    .video_list .text_box .text_top{width:8rem; height:6.66rem;}
+}
+
+/* concert & event */
+#sub_contents.concert, #sub_contents.event{padding:2rem 1rem; box-sizing:border-box;}
+.concert h3, .event h3{margin-bottom:0.5rem; font-size:1.5rem; font-family: 'Cafe24Dangdanghae'; font-weight:normal;}
+.concert h3 + p, .event h3 + p{margin-bottom:10px; font-size:1.125rem;}
+.total{font-size:1.25rem; color:#490e67; font-weight:700;}
+
+.concert ul, .event ul{display:flex; flex-wrap:wrap; width:100%; padding-top:1rem; border-top:1px solid #490e67; border-bottom:1px solid #490e67;}
+.concert li, .event li{width:calc(50% - 0.5rem); margin:0 1rem 1rem 0;}
+.concert li:nth-child(2n), .event li:nth-child(2n){margin-right:0;}
+.concert li img, .event li img{width:100%;}
+.concert li h4, .event li h4{width:95%; margin-top:0.45rem; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; text-align:center;}
+.concert li p, .event li p{font-size:0.875rem; color:#666;}
+
+
+
+
+
