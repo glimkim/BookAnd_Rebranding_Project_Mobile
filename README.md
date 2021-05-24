@@ -3,8 +3,6 @@
 *sample view*
 
 <img src="bookand_m.gif" height="400" alt="preview" />
-<br />
-<br />
 
 ## Link
 
