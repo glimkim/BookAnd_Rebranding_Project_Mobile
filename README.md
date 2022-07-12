@@ -1,4 +1,4 @@
-# BookAnd Rebranding Project - Mobile
+# BookAnd Rebranding Project - Mobile(2021. 02. 01 - 2021. 02. 15)
 
 *sample view*
 
